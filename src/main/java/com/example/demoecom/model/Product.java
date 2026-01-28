@@ -24,7 +24,7 @@ public class Product {
     private BigDecimal price;
     private String category;
     private LocalDate releaseDate;
-    private boolean available;
+    private boolean productAvailable;
 
     private String imageName;
     private String imageType;
