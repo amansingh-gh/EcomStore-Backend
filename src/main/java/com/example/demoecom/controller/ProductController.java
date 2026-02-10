@@ -46,6 +46,7 @@ public class ProductController {
         }
     }
 
+
     @GetMapping("product/{id}/image")
     public ResponseEntity<byte[]> getImageByProductId(@PathVariable int id){
         Product product = prodSer.getProductById(id);
